@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Museo 500';
+  src: local('Museo 500 Regular'), local('Museo500-Regular'),
+    url('../fonts/Museo500-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo 700';
+  src: local('Museo 700 Regular'), local('Museo700-Regular'),
+    url('Museo700-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  padding: 22px 0px;
+  background-color: #f1f1f1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.logo {
+  color: #202020;
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #202020;
+  text-decoration: none;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.login {
+  color: #202020;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* hero-section */
+
+.hero-container {
+  padding: 130px 0px 70px; 
+  display: flex;
+  max-width: 1140px;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-description {
+  margin-left: 121px;
+}
+
+.author-name {
+  font-size: 24px;
+  font-weight: 400;
+  color: #202020;
+}
+
+.book-name{
+  font-weight: 700;
+  color: #202020;
+  font-size: 54px;
+  margin: 22px 0px 15px 0px;
+  font-family: 'Museo 500';
+}
+
+.book-description {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #202020;
+  line-height: 29px;
+  margin-bottom: 48px;
+}
+
+.hero-services {
+  width: 421px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.services:nth-child(1) {
+  margin-right: 59px;
+  margin-bottom: 16px;
+}
+
+.services:nth-child(3) {
+  margin-right: 43px;
+}
+
+.services {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #202020;
+  
+}
+
+.hero-price {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.pricetag {
+  font-weight: 400;
+  color: #202020;
+  font-size: 55px;
+}
+
+.hero-add {
+  margin: auto;
+  align-items: center;
+}
+
+.like {
+  width: 26px;
+  height: 23px;
+}
+
+.add {
+  text-decoration: none;
+  color: inherit;
+}
+
+.read {
+  background-color: #f89c02;
+  height: 60px;
+  width: 250px;
+  border-radius: 5px;
+  color: white;
+  border: #f89c02;
+  margin: auto;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buy {
+  background-color: white;
+  height: 60px;
+  width: 250px;
+  border-radius: 5px;
+  color: #f89c02;
+  border: 1px solid #f89c02;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+}
